@@ -44,3 +44,16 @@ int main() {
 
     return 0;
 }
+
+//Output Sample:-
+
+/*
+Child 1 with PID 75 started.
+Child 2 with PID 76 started.
+Child 3 with PID 77 started.
+Enter child to wait for: 1
+Child 1 with PID 75 finished.
+Child 1 with PID 75 exited.
+Child 2 with PID 76 exited.
+Child 2 with PID 77 exited.
+*/

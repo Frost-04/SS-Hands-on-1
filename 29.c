@@ -65,3 +65,16 @@ int main() {
 
     return 0;
 }
+
+
+//Output Sample:-
+
+/*
+Current scheduling policy: SCHED_OTHER
+Select new Policy:
+1: SCHED_FIFO
+2: SCHED_RR
+3: SCHED_OTHER
+1
+Current scheduling policy: SCHED_FIFO
+*/

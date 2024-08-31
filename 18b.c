@@ -50,3 +50,15 @@ int main() {
     fcntl(fd, F_SETLK, &lock);
     printf("Booked\n");
 }
+
+
+//Output Sample:-
+
+/*
+Select train Number(1,2,3):
+1
+Before Entering into the critical section
+Ticket count : 1
+To book ticket, press Enter:
+Booked
+*/

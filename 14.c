@@ -41,3 +41,8 @@ int main(int argv, char *argc[]) {
 
     return 0;
 }
+
+
+//output sample:-
+
+// The file is regular file.

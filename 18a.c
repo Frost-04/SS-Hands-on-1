@@ -39,3 +39,14 @@ int main() {
     write(fd, db, sizeof(db));
     close(fd);
 }
+
+//Output Sample:-
+
+/*
+Select train Number(1,2,3):
+1
+Before Entering into the critical section
+Ticket count : 1
+To book ticket, press Enter:
+Booked
+*/

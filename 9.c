@@ -33,3 +33,20 @@ int main(int agrv, char *argc[]) {
     printf("Time of last change:=%s", ctime(&stats.st_ctime));
     return 0;
 }
+
+//output sample:-
+
+/*
+inode=12345678
+Number of hardlink=1
+User id=1000
+Group id=1000
+otal size in bytes=4096
+Block size: 4096 bytes
+Time of last access=Wed Aug 23 12:34:56 2024
+Time of last modification=Wed Aug 23 12:30:00 2024
+Time of last change:=Wed Aug 23 12:32:00 2024
+
+*/
+
+

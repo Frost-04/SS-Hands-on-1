@@ -22,3 +22,11 @@ int main() {
 
     return 0;
 }
+
+//Output Sample:-
+
+/*
+Enter process ID: 51
+The nice value is: 0
+The priority is: 20
+*/

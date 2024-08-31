@@ -30,3 +30,10 @@ void main()
     printf("Process ID is : %llu\n", pid);
     printf("Difference is : %llu Clocks\n", end - start);
 }
+
+//Output Sample:-
+
+/*
+Process ID is : 32
+Difference is : 7094 Clocks
+*/

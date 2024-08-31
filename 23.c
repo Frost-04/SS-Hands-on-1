@@ -24,3 +24,11 @@ int main() {
     }
     return 0;
 }
+
+
+//Output Sample:-
+
+/*
+Parent process is running. Parent-PID: 69
+Written by child process. Child-PID: 70
+*/

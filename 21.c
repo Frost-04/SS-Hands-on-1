@@ -24,3 +24,10 @@ int main() {
 
     return 0;
 }
+
+//Output Sample:-
+
+/*
+Parent PID: 53
+Child PID: 54
+*/

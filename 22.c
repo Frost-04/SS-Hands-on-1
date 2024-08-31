@@ -26,3 +26,8 @@ int main(int argc, char *argv[]) {
     }
     return 0;
 }
+
+
+//Output Sample:-
+
+//Process 58 wrote this.

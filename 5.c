@@ -28,3 +28,12 @@ void main() {
     }
 }
 
+//generated files will be:-
+
+/*
+5.c_file1.txt
+5.c_file2.txt
+5.c_file3.txt
+5.c_file4.txt
+5.c_file5.txt
+*/

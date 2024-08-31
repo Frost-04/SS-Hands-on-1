@@ -30,3 +30,12 @@ int main(int argv,char *argc[]){
 	return 0;
 
 }
+
+//Output Sample:-
+/*
+Original using original FD
+Writing using dup fd
+Writing using dup2 fd
+Writing using fnctl dup fd
+
+*/

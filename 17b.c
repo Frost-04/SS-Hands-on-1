@@ -47,3 +47,13 @@ int main() {
     printf("Unlocked!\n");
     return 0;
 }
+
+
+//Output sample:-
+
+/*
+Locked!
+101	 
+Press enter to unlock!
+Unlocked!
+*/

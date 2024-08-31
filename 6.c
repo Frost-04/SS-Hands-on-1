@@ -17,3 +17,12 @@ int main() {
     return 0;
 }
 
+
+//output sample:-
+
+
+/*
+input-HELLO
+output-HELLO
+*/
+

@@ -25,3 +25,11 @@ int main() {
 
     return 0;
 }
+
+
+//Output Sample:-
+
+/*
+Parent process exiting. PID: 71
+Child process running as an orphan. PID: 72, Parent PID: 12
+*/

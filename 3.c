@@ -24,3 +24,8 @@ int main() {
 
     return 0;
 }
+
+
+//output sample:-
+
+//File descriptor value: 3

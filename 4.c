@@ -18,7 +18,7 @@ void main() {
 
     if (fd == -1) {
         // Error checking
-        perror("Error opening file: \n");
+        perror("Error!\n");
     }
 
     else {
@@ -27,3 +27,7 @@ void main() {
         close(fd);
     }
 }
+
+//output sample:-
+
+//File opened/created successfully.

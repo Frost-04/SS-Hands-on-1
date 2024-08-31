@@ -23,3 +23,10 @@ int main() {
 
     return 0;
 }
+
+//Output Sample:-
+
+/*
+Priorities for FIFO: Min= 1, Max= 99
+Priorities for RR: Min= 1, Max= 99
+*/
