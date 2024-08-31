@@ -35,9 +35,20 @@ int main(int argc, char *argv[]) {
         do {
             time(&curr);
             printf("Inside the loop!\n");
+            sleep(1);
         } while (difftime(dead, curr) > 0);
         printf("Exiting\n");
     } else {
         exit(0);
     }
 }
+
+//Output Sample:-
+
+/*
+Inside the loop!
+Inside the loop!
+Inside the loop!
+Inside the loop!
+Exiting
+*/
