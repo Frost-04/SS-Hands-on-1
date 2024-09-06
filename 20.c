@@ -6,27 +6,22 @@ Description :  Find out the priority of your running program. Modify the priorit
 Date: 23rd Aug, 2024.
 ============================================================================
 */
-#include <stdio.h>
-#include <sys/resource.h>
+#include<stdio.h>
+#include<unistd.h> // for nice(), getpid()
+#include<sys/resource.h> // for getpriority(), constants like PRIO_PROCESS
 
-int main() {
-    int pid;
-    printf("Enter process ID: ");
-    scanf("%d", &pid);
+int main(){
+	int priority;
+	pid_t pid = getpid();
+	
+	priority = getpriority(PRIO_PROCESS, pid);
 
-    int nice_value = getpriority(PRIO_PROCESS, pid);
-    int priority = 20 + nice_value;
+	printf("current priority : %d\n", priority);
 
-    printf("The nice value is: %d\n", nice_value);
-    printf("The priority is: %d\n", priority);
+	nice(5); // increase priority by 5
+	
+	priority = getpriority(PRIO_PROCESS, pid);
 
-    return 0;
+	printf("new priority : %d\n", priority);
+	return 0;
 }
-
-//Output Sample:-
-
-/*
-Enter process ID: 51
-The nice value is: 0
-The priority is: 20
-*/
